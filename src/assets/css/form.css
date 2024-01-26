@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+.form {
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* margin: auto; */
+    /* margin-top: 50px; */
+    align-items: center;
+    /* background-color: rgba(211, 211, 211, 0.285); */
+    height: 100%;
+    
+}
+
+.form__cells {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form__cell {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 30px;
+    height: 60px;
+}
+
+.form__input, .form__select {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.form__input:focus {
+    /* border: none; */
+    outline: 0;
+}
+
+.form__label {
+    margin-bottom: 0px;
+    align-self: flex-start;
+    color: rgb(32, 32, 32);
+    font-size: 1.06rem;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form__submit{
+}
+.form__error-message {
+    color: red;
+    margin-top: 3px;
+    align-self: flex-start;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+
+}
+.form__button {
+    background-color: rgb(0, 68, 255);
+    padding: 10px 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: 130px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    transition: 100ms;
+}
+.form__button:hover {
+    background-color: rgb(0, 37, 137);
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: 100ms;
+}
